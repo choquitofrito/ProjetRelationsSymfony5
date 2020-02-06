@@ -16,6 +16,8 @@ class ExemplesHeritageController extends AbstractController
      */
     public function insererClientAuteur(){
         $em = $this->getDoctrine()->getManager();
+
+      
         // créer l'objet
         $client = new ClientH();
         $client->setNom("López");
